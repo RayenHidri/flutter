@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:mni_projet/auth/AddFamily.dart';
-import 'package:mni_projet/auth/AddMember.dart';
+import 'package:mni_projet/Components/AddFamily.dart';
+import 'package:mni_projet/Components/AddMember.dart';
+import 'package:mni_projet/Components/LoginPage.dart';
+
 
 import 'Components/AddComponent.dart';
-import 'auth/LoginPage.dart';
+
 
 class HomePage extends StatefulWidget {
   @override
@@ -35,7 +37,7 @@ class _HomePageState extends State<HomePage> {
                     /*decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(50.0)),*/
-                    child: Image.asset('assets/images/logo.jpg')),
+                    child: Image.asset('assets/images/gstock.png')),
               ),
             ),
             Padding(
